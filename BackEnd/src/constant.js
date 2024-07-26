@@ -1,0 +1,1 @@
+export const databaseCollection = "blogsite";

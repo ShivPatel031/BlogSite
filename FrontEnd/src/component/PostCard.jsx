@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Heart } from 'lucide-react';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
@@ -8,6 +8,7 @@ axios.defaults.withCredentials=true;
 
 function PostCard({ _id, title, coverImage, excerpt, author, likes }) {
     const user = useSelector(state=>state.auth.userData);
+    const navigate = useNavigate();
     const dispatch = useDispatch();
 //   const isLiked = useSelector(state => state.likes[_id] || false);
     
@@ -33,6 +34,12 @@ function PostCard({ _id, title, coverImage, excerpt, author, likes }) {
   const handleLike = async (e) => {
     e.preventDefault(); // Prevent navigation
     e.stopPropagation(); // Prevent event bubbling
+
+    if(!user)
+    {
+      navigate("/login");
+      return;
+    }
 
     if(!isLiked)
     {

@@ -138,7 +138,7 @@ const addUserPost = asynchandler(async  (req,res)=>{
 
 
     if(!coverImageUrl)  throw new ApiError(500,"something went wrong while  uploading image in cloudinary");
-
+    
     const post = await Post.create({
         user:user._id,
         content:content,

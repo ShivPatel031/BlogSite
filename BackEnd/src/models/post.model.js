@@ -23,7 +23,6 @@ const postSchema = new Schema(
         },
         status:{
             type:Boolean,
-            reuqired:true
         }
     },
     {

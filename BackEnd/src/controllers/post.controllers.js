@@ -9,6 +9,8 @@ const getPosts = asynchandler(async (req,res)=>{
 
     if(!posts) throw new ApiError(500,"No posts is found");
 
+    console.log("Sending Post data");
+
     res.status(201).json(new ApiResponse(201,posts,"post loaded successfully"));
 });
 
@@ -18,12 +20,13 @@ const getSinglePost =  asynchandler(async (req,res)=>{
 
     if(!post) throw new ApiError(400,"post not found");
 
+    console.log("sending a single post");
+
     res.status(201).json(new ApiResponse(201,post,"post found"));
 });
 
 const updatePost=asynchandler(async (req,res)=>
     {
-        console.log(req.body);
         const {title,slug,content,status,Id} = req.body;
 
         if(!title || !slug || !content || !status || !Id) throw new ApiError(401,"required all details");
@@ -39,6 +42,8 @@ const updatePost=asynchandler(async (req,res)=>
 
         await post.save({validateBeforSave:false});
 
+        console.log("Updating Post with id ",Id);
+
         res.status(200).json(new ApiResponse(200,post,"post updated successfully"));
     }
 )
@@ -48,32 +53,41 @@ const deletePost = asynchandler(async (req,res)=>{
 
     if(!post) throw new ApiError(500,"somting went wrong while deleting post ");
 
+    console.log("Deleting Post with id ",req.params.Id);
+
     res.status(200).json(new ApiResponse(200,post,"Post is deleted successfully"));
 })
 
 const likedPost = asynchandler(async (req,res)=>{
-    const {userId,postId} = await req.body;
 
-    if(!userId || !postId) throw new ApiError(404,"Didn't get userId or postId");
+    try {
+        const {userId,postId} = await req.body;
 
-    const post = await Like.create({
-        user:userId,
-        post:postId
-    });
+        if(!userId || !postId) throw new ApiError(404,"Didn't get userId or postId");
 
-    if(post) console.log("post wit id "+postId+"is liked successfully");
+        const post = await Post.findById(postId);
 
-    res.status(200).json(new ApiResponse(200,post,"Post is liked successfuly"))
+        if(!post) console.log("Post is not found");
+
+        post.likes.push(userId);
+
+        await post.save();
+
+        if(post) console.log("post with id "+postId+"is liked successfully");
+
+        res.status(200).json(new ApiResponse(200,post,"Post is liked successfuly"));
+    } catch (error) {
+        console.log(error)   
+    }
 })
 
 const getLikes = asynchandler(async (req,res)=>
     {
         const {postId} = req.body;
-        console.log(postId);
         
         if(!postId) throw new ApiError(404,"Didn't get post id");
 
-        const likedpost = await Like.find({post:postId}).select("-post");
+        const likedpost = await Like.find({post:postId}).select("-post -createdAt -updatedAt");
 
         res.status(200).json(new ApiResponse(200,likedpost,"Post is liked successfuly"));
     }
@@ -81,15 +95,28 @@ const getLikes = asynchandler(async (req,res)=>
 
 const disLikePost = asynchandler(async (req,res)=>
     {
-        const {id} = req.params;
-        
-        if(!id) throw new ApiError(404,"Didn't get post id");
+        try {
+            const {userId,postId} = await req.body;
 
-        const dislike = await Like.findOneAndDelete(id);
+            if(!userId || !postId) throw new ApiError(404,"Didn't get userId or postId");
 
-        if(dislike) console.log("Post id disliked successfully");
+            // const dislike = await Like.findOneAndDelete(id);
 
-        res.status(200).json(new ApiResponse(200,dislike,"Post is disliked successfuly"));
+            const post = await Post.findById(postId);
+
+            if(!post) console.log("Post is not found");
+
+            post.likes.pull(userId);
+
+            const dislike = await post.save();
+
+            if(dislike) console.log("Post disliked successfully");
+
+            res.status(200).json(new ApiResponse(200,dislike,"Post is disliked successfuly"));
+            
+        } catch (error) {
+            console.log(error);
+        }
     }
 )
 

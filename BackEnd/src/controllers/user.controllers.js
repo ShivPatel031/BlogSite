@@ -5,7 +5,9 @@ import { Post } from "../models/post.model.js";
 import { uploadOnCloudinary } from "../utils/cloudinary.js";
 import { ApiError } from "../utils/ApiError.js";
 import {ApiResponse} from "../utils/ApiResponse.js"
-import mongoose from "mongoose";
+import { verifyEmail } from "../utils/NodeMailer.js";
+
+let temporaryDataMap = new Map();
 
 const generateAccessAndRefreshTokens = async(userId)=>{
     try{
@@ -28,6 +30,103 @@ const generateAccessAndRefreshTokens = async(userId)=>{
     }
 }
 
+const verifyUserEmail = async (req, res) => {
+    const {
+        token
+    } = req.params;
+    try {
+        if (!token) {
+            return res.status(400).json({
+                message: "Token not available"
+            });
+        }
+
+        let verified_token;
+        try {
+            // Add logging to inspect token
+            console.log("Received token:", token);
+
+            verified_token = jwt.verify(token, process.env.JWT_SECRET);
+        } catch (err) {
+            console.error('Token verification error:', err);
+            return res.status(400).json({
+                message: "Token not valid"
+            });
+        }
+
+        console.log(verified_token.data);
+
+        const email = verified_token.data?.email;
+
+        if (!email) {
+            return res.status(400).json({
+                message: "Token does not contain a valid email"
+            });
+        }
+
+        if (!temporaryDataMap.has(email)) {
+            return res.status(400).json({
+                message: "Data is not stored. Please try to login again."
+            });
+        }
+
+        const temporaryData = temporaryDataMap.get(email);
+
+        // Ensure the token contains expected data
+        console.log("Temporary data for verification:", temporaryData);
+        if (!temporaryData.password || !temporaryData.userName || !email ) {
+            return res.status(400).json({
+                message: "Invalid token data"
+            });
+        }
+
+        const existingUser = await User.findOne({
+            email
+        });
+        if (existingUser) {
+            return res.status(400).json({
+                message: "Email already exists"
+            });
+        }
+
+        // Hash the password
+        // const hashedPassword = await hashPassword(temporaryData.password);
+
+        // Prepare the user data
+        // const user = new User({
+        //     firstName: temporaryData.firstName,
+        //     lastName: temporaryData.lastName,
+        //     contact: temporaryData.contact,
+        //     dob: temporaryData.dob,
+        //     gender: temporaryData.gender,
+        //     email,
+        //     password: hashedPassword,
+        //     role: temporaryData.role
+        // });
+
+        const user = await User.create({
+                userName:temporaryData.userName.toLowerCase(),
+                password:temporaryData.password,
+                email
+            });
+
+        // Save the user to the database
+        await user.save();
+
+        // Remove temporary data once the user is registered
+        temporaryDataMap.delete(email);
+
+        // Redirect to login page at frontend
+        return res.redirect(`http://${process.env.FRONTEND_URL}/login`);
+    } catch (error) {
+        console.error('Internal server error:', error);
+        return res.status(500).json({
+            message: "Internal server error",
+            error: error.message
+        });
+    }
+};
+
 const registerUser = asynchandler(
     async(req,res)=>{
         const {name,password,email}=req.body;
@@ -41,17 +140,31 @@ const registerUser = asynchandler(
 
         if(exsitedUser) throw new ApiError(401,"User Name and error is already exist");
 
-        const user = await User.create({
-            userName:userName.toLowerCase(),
+        temporaryDataMap.set(email, {
+            userName,
             password,
             email
         });
 
-        const createdUser = await User.findById(user._id).select("-password -refreshToken");
+        const verificationMessage = await verifyEmail(email, {
+            email
+        });
 
-        if(!createdUser) throw new ApiError(500,"somethig went wrong while creating user");
+        return res.status(201).json({
+            message: verificationMessage
+        });
 
-        return res.status(201).json(new ApiResponse(200,createdUser,"User regestred successfully"));
+        // const user = await User.create({
+        //     userName:userName.toLowerCase(),
+        //     password,
+        //     email
+        // });
+
+        // const createdUser = await User.findById(user._id).select("-password -refreshToken");
+
+        // if(!createdUser) throw new ApiError(500,"somethig went wrong while creating user");
+
+        // return res.status(201).json(new ApiResponse(200,createdUser,"User regestred successfully"));
     }
 );
 
@@ -79,6 +192,7 @@ const loginUser = asynchandler(
             httpOnly:true,
             sameSite:"none",
             secure:true,
+            expiresIn: '6h'
         }
 
         return res
@@ -156,4 +270,4 @@ const addUserPost = asynchandler(async  (req,res)=>{
     
 })
 
-export {registerUser,loginUser,logoutUser,authUser,addUserPost};
+export {registerUser,loginUser,logoutUser,authUser,addUserPost,verifyUserEmail};

@@ -17,6 +17,6 @@ router.route("/like-post").post(likedPost);
 
 router.post('/get-likes',getLikes);
 
-router.get('/dislike/:id',disLikePost);
+router.post('/dislike',disLikePost);
 
 export  default router

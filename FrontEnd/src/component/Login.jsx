@@ -244,7 +244,7 @@ function Login() {
     setError("");
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/v1/user/login", userData);
+      const response = await axios.post(`http://${import.meta.env.VITE_BACKEND_SERVER}/api/v1/user/login`, userData);
       if (response.data.success) {
         dispatch(login(response.data.data));
         refreshPage();
@@ -260,7 +260,7 @@ function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-10 bg-white p-10 rounded-xl shadow-2xl">
-        <div className="text-center">
+        <div className="text-center flex flex-col justify-center items-center">
           <SiteLogo width="120" className="mx-auto h-16 w-auto" />
           <h2 className="mt-6 text-4xl font-extrabold text-gray-900">
             Welcome Back
@@ -341,15 +341,15 @@ function Login() {
               ) : (
                 <Lock className="absolute left-0 inset-y-0 flex items-center pl-3 h-5 w-5 text-blue-500 group-hover:text-blue-400" aria-hidden="true" />
               )}
-              {isLoading ? 'Signing in...' : 'Sign in'}
+              {isLoading ? 'logging in...' : 'Log in'}
             </Button>
           </div>
         </form>
-        <div className="text-center">
+        {/* <div className="text-center">
           <Link to="/forgot-password" className="font-medium text-sm text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out">
             Forgot your password?
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

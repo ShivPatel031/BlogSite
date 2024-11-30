@@ -1,8 +1,7 @@
 import { Router } from "express";
 import { upload } from "../middlewares/multer.middlewares.js";
 import {varifyJWT} from "../middlewares/auth.middlewares.js";
-import { loginUser,logoutUser,registerUser,authUser ,addUserPost} from "../controllers/user.controllers.js";
-import multer from "multer";
+import { loginUser,logoutUser,registerUser,authUser ,addUserPost, verifyUserEmail} from "../controllers/user.controllers.js";
 
 const router = Router();
 
@@ -19,6 +18,8 @@ router.route("/add-post").post(
     varifyJWT,
     addUserPost
 );
+
+router.route('/verify/:token').get(verifyUserEmail);
 
 
 

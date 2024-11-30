@@ -10,20 +10,21 @@ function PostCard({ _id, title, coverImage, excerpt, author, likes }) {
     const user = useSelector(state=>state.auth.userData);
     const navigate = useNavigate();
     const dispatch = useDispatch();
+    console.log(likes)
 //   const isLiked = useSelector(state => state.likes[_id] || false);
-    
-    const [like, setLike] = useState([]);
-    const isLiked = like.some(data=>data.user===user?._id);
-    console.log(like);
+
+    // const [like, setLike] = useState([]);
+    const isLiked = likes.some(data=>data===user?._id);
+    console.log(isLiked);
 
     const getLikes =async()=>{
       const response = await axios.post("http://localhost:5000/api/v1/posts/get-likes",{postId:_id});
-      setLike(response.data.data);
+      // setLike(response.data.data);
     }
 
     const dislike = async(id)=>{
       try {
-        const response = await axios(`http://localhost:5000/api/v1/posts/dislike/${id}`);
+        const response = await axios.post(`http://localhost:5000/api/v1/posts/dislike`,{userId:user._id,postId:_id});
         if (response.status == 200) getLikes();
       } catch (error) {
         console.log(error);
@@ -51,9 +52,7 @@ function PostCard({ _id, title, coverImage, excerpt, author, likes }) {
       }
     }
     else{
-      let index = like.findIndex(data=>data.user===user._id);
-      const id =like[index]._id;
-      dislike(id);
+      dislike();
     }
 
     
@@ -61,7 +60,7 @@ function PostCard({ _id, title, coverImage, excerpt, author, likes }) {
     
   };
 
-  useEffect(()=>{getLikes()},[]);
+  // useEffect(()=>{getLikes()},[]);
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white transition-all duration-300 hover:shadow-xl">
@@ -79,7 +78,7 @@ function PostCard({ _id, title, coverImage, excerpt, author, likes }) {
           className={`flex items-center space-x-1 ${isLiked ? 'text-red-500' : 'text-gray-500'} hover:text-red-500 transition-colors duration-300`}
         >
           <Heart className={`h-5 w-5 ${isLiked ? 'fill-current' : ''}`} />
-          <span>{like.length}</span>
+          <span>{likes.length}</span>
         </button>
         <Link 
           to={`/post/${_id}`} 

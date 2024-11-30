@@ -86,6 +86,7 @@ import axios from "axios";
 import parse from "html-react-parser";
 import { Button, Container } from "../component/index.js";
 import { Edit2, Trash2, Clock, User } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 axios.defaults.withCredentials = true;
 
@@ -96,6 +97,57 @@ function Post() {
   const navigate = useNavigate();
 
   const userData = useSelector((state) => state.auth.userData);
+  const [like, setLike] = useState([]);
+  const isLiked = like.some(data=>data.user===userData?._id);
+  console.log(like);
+
+  const getLikes =async()=>{
+    const response = await axios.post("http://localhost:5000/api/v1/posts/get-likes",{postId:slug});
+    console.log(response);
+    setLike(response.data.data);
+  }
+
+  const dislike = async(id)=>{
+    try {
+      const response = await axios(`http://localhost:5000/api/v1/posts/dislike/${id}`);
+      if (response.status == 200) getLikes();
+    } catch (error) {
+      console.log(error);
+    }
+    
+  }
+
+const handleLike = async (e) => {
+  e.preventDefault(); // Prevent navigation
+  e.stopPropagation(); // Prevent event bubbling
+
+  if(!userData)
+  {
+    navigate("/login");
+    return;
+  }
+
+  if(!isLiked)
+  {
+    try {
+        const response = await axios.post("http://localhost:5000/api/v1/posts/like-post",{userId:userData._id,postId:slug});
+        if(response) getLikes();
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  else{
+    let index = like.findIndex(data=>data.user===userData._id);
+    const id =like[index]._id;
+    dislike(id);
+  }
+
+  
+  
+  
+};
+
+useEffect(()=>{getLikes()},[]);
 
   const refreshPage = () => {
     setTimeout(() => {
@@ -108,7 +160,7 @@ function Post() {
   const getSelectedPost = async (slug) => {
     try {
       setIsLoading(true);
-      const response = await axios(`http://localhost:5000/api/v1/posts/single-post/${slug}`);
+      const response = await axios(`http://${import.meta.env.VITE_BACKEND_SERVER}/api/v1/posts/single-post/${slug}`);
       if (response.data.success) {
         setPost(response.data.data);
       }
@@ -130,7 +182,7 @@ function Post() {
   const deletePost = async () => {
     if (window.confirm("Are you sure you want to delete this post?")) {
       try {
-        const response = await axios(`http://localhost:5000/api/v1/posts/delete-post/${post._id}`);
+        const response = await axios(`http://${import.meta.env.VITE_BACKEND_SERVER}/api/v1/posts/delete-post/${post._id}`);
         if (response.data.success) {
           refreshPage();
           navigate('/');
@@ -160,16 +212,8 @@ function Post() {
 
   return (
     <div className="py-8 bg-gray-50 min-h-screen">
-      <Container>
-        <article className="bg-white shadow-lg rounded-lg overflow-hidden">
-          <div className="relative">
-            <img 
-              src={post.coverImage} 
-              alt={post.title} 
-              className="w-full h-[400px] object-cover"
-            />
-            {isAuthor && (
-              <div className="absolute top-4 right-4 space-x-2">
+      {isAuthor && (
+              <div className="absolute space-x-2 flex gap-3 right-36">
                 <Link to={`/edit-post/${post._id}`}>
                   <Button 
                     className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full transition duration-300 ease-in-out flex items-center"
@@ -187,6 +231,15 @@ function Post() {
                 </Button>
               </div>
             )}
+      <Container>
+        <article className="bg-white shadow-lg rounded-lg overflow-hidden mt-[50px]">
+          <div className="relative">
+            <img 
+              src={post.coverImage} 
+              alt={post.title} 
+              className="w-full object-cover"
+            />
+            
           </div>
           <div className="p-8">
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
@@ -195,7 +248,15 @@ function Post() {
               <span className="mr-4">{post.author}</span>
               <Clock size={18} className="mr-2" />
               <span>{new Date(post.createdAt).toLocaleDateString()}</span>
+              <button 
+                onClick={handleLike}
+                className={`flex items-center space-x-1 ${isLiked ? 'text-red-500' : 'text-gray-500'} hover:text-red-500 transition-colors duration-300`}
+              >
+                <Heart className={`h-5 w-5 ${isLiked ? 'fill-current' : ''}`} />
+                <span>{like.length}</span>
+              </button>
             </div>
+
             <div className="prose max-w-none">
               {parse(post.content)}
             </div>

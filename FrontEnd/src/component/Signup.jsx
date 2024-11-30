@@ -105,9 +105,9 @@ function Signup() {
     setError("");
     setIsLoading(true);
     try {
-      const user = await axios.post("http://localhost:5000/api/v1/user/register", userData);
+      const user = await axios.post(`http://${import.meta.env.VITE_BACKEND_SERVER}/api/v1/user/register`, userData);
       if (user?.data.success) {
-        const loginUser = await axios.post("http://localhost:5000/api/v1/user/login", userData);
+        const loginUser = await axios.post(`http://${import.meta.env.VITE_BACKEND_SERVER}/api/v1/user/login`, userData);
         if (loginUser.data.success) {
           dispatch(login(user.data.data));
           navigate('/');
@@ -123,7 +123,7 @@ function Signup() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-10 bg-white p-10 rounded-xl shadow-2xl">
-        <div className="text-center">
+        <div className="text-center flex flex-col justify-center items-center">
           <SiteLogo width="120" className="mx-auto h-16 w-auto" />
           <h2 className="mt-6 text-4xl font-extrabold text-gray-900">
             Create an Account

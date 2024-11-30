@@ -8,7 +8,7 @@
 function SiteLogo({width='100px'})
 {
     return (
-        <div>siteLogo</div>
+        <img src="https://res.cloudinary.com/shivcloudinary/image/upload/v1728883073/blog-site-favicon-color_xi8att.png" alt="Logo Image" className="w-[55px]" />
     )
 }
 

@@ -138,7 +138,7 @@ const registerUser = asynchandler(
 
         const exsitedUser = await User.findOne({$or:[{userName},{email}]});
 
-        if(exsitedUser) throw new ApiError(401,"User Name and error is already exist");
+        if(exsitedUser) throw new ApiError(401,"User Name and email is already exist");
 
         temporaryDataMap.set(email, {
             userName,

@@ -1,0 +1,42 @@
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-02-23 21:32:14"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-02-23 21:32:33"}
+{"level":"error","message":"Proxy error: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-02-24 21:28:18"}
+{"level":"error","message":"Proxy error: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-02-24 21:28:57"}
+{"level":"error","message":"Proxy error: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-02-24 21:29:11"}
+{"level":"error","message":"Proxy error: Cannot set properties of undefined (setting 'Content-Type')","service":"api-gateway","timestamp":"2025-02-24 21:29:50"}
+{"level":"error","message":"Proxy error: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","service":"api-gateway","timestamp":"2025-03-15 17:19:39"}
+{"level":"error","message":"Proxy error: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","service":"api-gateway","timestamp":"2025-03-15 17:22:15"}
+{"level":"error","message":"Proxy error: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","service":"api-gateway","timestamp":"2025-03-15 17:27:14"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-15 18:51:03"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-15 18:55:05"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15 18:57:06"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15 18:57:21"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15 18:58:25"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-15 21:22:00"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15 21:27:27"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15 21:29:41"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15 21:29:41"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-15 21:54:38"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-15 21:54:44"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-16 19:19:33"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-16 19:27:19"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-16 19:27:19"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-16 19:27:47"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-16 19:28:13"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-16 21:05:46"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-03-16 21:05:46"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at Object.handler (file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/src/Middleware/requestRateLimiter.js:18:7)\n    at file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/node_modules/express-rate-limit/dist/index.mjs:791:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/node_modules/express-rate-limit/dist/index.mjs:676:5","service":"api-gateway","timestamp":"2025-03-16 21:12:02"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at Object.handler (file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/src/Middleware/requestRateLimiter.js:18:7)\n    at file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/node_modules/express-rate-limit/dist/index.mjs:791:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/node_modules/express-rate-limit/dist/index.mjs:676:5","service":"api-gateway","timestamp":"2025-03-16 21:13:19"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at Object.handler (file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/src/Middleware/requestRateLimiter.js:18:7)\n    at file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/node_modules/express-rate-limit/dist/index.mjs:791:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///C:/Users/patel/Documents/Blog%20Site/BackEnd/API-GATEWAY/node_modules/express-rate-limit/dist/index.mjs:676:5","service":"api-gateway","timestamp":"2025-03-16 21:13:35"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-02 17:11:11"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-02 17:31:53"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-02 17:31:54"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-03 10:28:18"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-03 10:28:40"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 12:32:22"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 12:44:36"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 13:01:13"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 13:01:22"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 13:01:35"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-03 14:30:35"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 17:19:51"}

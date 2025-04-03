@@ -24,6 +24,9 @@ const postSchema = new Schema(
         status:{
             type:Boolean,
         },
+        cloudinaryId:{
+            type:String
+        },
         likes:[
             {
                 type:Schema.Types.ObjectId,
@@ -37,3 +40,5 @@ const postSchema = new Schema(
 )
 
 export const Post = mongoose.model("Post",postSchema)
+
+

@@ -1,8 +1,7 @@
 import nodemailer from "nodemailer";
 import jwt from "jsonwebtoken";
 
-const verifyEmail = async (un_verified_email, user) => {
-    console.log(un_verified_email)
+const verifyEmail = async (user) => {
 
     return new Promise((resolve, reject) => {
         const transporter = nodemailer.createTransport({ 
@@ -14,7 +13,7 @@ const verifyEmail = async (un_verified_email, user) => {
                 pass: process.env.EMAIL_PASS
             },
             tls: {
-                rejectUnauthorized: false
+                rejectUnauthorized: false 
             }
         });
         
@@ -27,7 +26,7 @@ const verifyEmail = async (un_verified_email, user) => {
         );
 
         const mailConfigurations = {
-            to: un_verified_email, 
+            to: user.email, 
             subject: 'Email Verification for BlogSite',
             text: `Hi! There, You have recently visited 
                our website and entered your email.

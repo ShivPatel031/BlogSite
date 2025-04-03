@@ -1,0 +1,1502 @@
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 18:46:33"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:11:21"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-02-23 19:12:10"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:12:10"}
+{"level":"warn","message":"Registeration Validation Error : ValidationError: \"password\" length must be at least 6 characters long","service":"auth-service","timestamp":"2025-02-23 19:12:10"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-02-23 19:12:19"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:12:19"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-02-23 19:13:21"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:13:21"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:14:48"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:14:54"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:14:56"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:15:14"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:15:20"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:15:24"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-02-23 19:15:26"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:15:26"}
+{"level":"error","message":"Error in user registeration Operation `users.findOne()` buffering timed out after 10000ms","service":"auth-service","timestamp":"2025-02-23 19:15:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:16:39"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:16:44"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:16:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:18:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:18:52"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-02-23 19:18:58"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:18:58"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-02-23 19:19:09"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:19:09"}
+{"level":"warn","message":"User already exist","service":"auth-service","timestamp":"2025-02-23 19:19:09"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:19:39"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:19:42"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:19:43"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:19:47"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:19:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:19:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:19:52"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:20:22"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:20:23"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:20:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:20:38"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:20:50"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:20:52"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:20:53"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:20:57"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:20:58"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:21:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:21:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:21:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:21:37"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:21:40"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:21:48"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:21:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:21:50"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:21:51"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:21:53"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:22:08"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:22:09"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:22:10"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:22:11"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:47:13"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:47:16"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:47:24"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:47:24"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"password\" length must be at least 6 characters long","service":"auth-service","timestamp":"2025-02-23 19:47:24"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:47:32"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:47:32"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:47:33"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:47:40"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:47:40"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:47:40"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:48:25"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:48:26"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:48:28"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:48:30"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:48:30"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:48:30"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:48:31"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:48:55"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:48:57"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:48:58"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:49:03"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:49:04"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:49:04"}
+{"level":"error","message":"Error in user registeration Operation `users.findOne()` buffering timed out after 10000ms","service":"auth-service","timestamp":"2025-02-23 19:49:14"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:49:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:49:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:49:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:49:39"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:49:43"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:49:44"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:49:56"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:49:56"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:49:56"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:50:34"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:50:35"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:50:35"}
+{"level":"error","message":"Error in user registeration Operation `users.findOne()` buffering timed out after 10000ms","service":"auth-service","timestamp":"2025-02-23 19:50:45"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:50:53"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:51:01"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:51:01"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:51:02"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:51:43"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:51:44"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:51:47"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:51:48"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:51:53"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:51:53"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:51:54"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:52:38"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:52:38"}
+{"level":"warn","message":"Something went wrong while generating token","service":"auth-service","timestamp":"2025-02-23 19:52:44"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:53:11"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:53:13"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:53:16"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:53:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:53:57"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:53:58"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:54:00"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:54:00"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:54:16"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:54:18"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:54:18"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:54:18"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:54:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:54:39"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:54:41"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:54:41"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:55:17"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:55:20"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:55:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:55:24"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 19:55:24"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 19:55:24"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:55:25"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 19:55:36"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 19:55:37"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:19:08"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:19:10"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:19:34"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:19:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:19:53"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:19:54"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:20:02"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:20:05"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:20:06"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 21:20:16"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 21:20:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:20:45"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:20:46"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 21:20:47"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 21:20:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:20:58"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:20:59"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:21:03"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:21:06"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:21:07"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 21:21:07"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 21:21:07"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:21:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:21:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:21:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:21:51"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:21:52"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:21:55"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:22:13"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:22:15"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:25:28"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:25:30"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:25:33"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:25:35"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:33:01"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:33:04"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:33:06"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:33:57"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:34:00"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:34:01"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:34:15"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:34:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:34:24"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:34:26"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:34:35"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:34:42"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:34:43"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:35:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:35:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:35:40"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:35:43"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:35:45"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:35:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:35:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:36:10"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:36:11"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:36:12"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:36:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:37:08"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:37:09"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:37:32"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:37:33"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:37:39"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:38:52"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:38:55"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:03"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:39:04"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:10"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:39:11"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:14"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:39:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:32"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:39:33"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:39:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:39:50"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:39:51"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:13"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:17"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:18"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:20"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:23"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:25"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:27"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:29"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:30"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:35"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:39"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:40:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:40:53"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:00"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:41:01"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:15"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:41:18"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:41:32"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:38"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:41"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:41:42"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:48"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:41:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:41:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:41:52"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:42:00"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:42:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:42:05"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:42:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:42:19"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:42:20"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:42:22"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:42:24"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:42:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:42:40"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:44:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:44:06"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:44:40"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:44:41"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:45:35"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:45:37"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:45:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:45:50"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:45:53"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:45:57"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:45:58"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:46:13"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:46:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:46:20"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:46:21"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:46:24"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:46:29"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:46:30"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:46:42"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:46:43"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:46:50"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:46:54"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:47:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:47:48"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:47:59"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:47:59"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:02"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:06"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:12"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:15"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:35"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:39"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:43"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:46"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:54"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:48:56"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:48:59"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:49:02"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:49:04"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:49:09"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:49:12"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:49:20"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-02-23 21:49:20"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","7":" ","code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled Rejectio at","service":"auth-service","timestamp":"2025-02-23 21:49:22"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 21:49:28"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 21:49:28"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 21:50:20"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-02-23 21:50:20"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","7":" ","code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled Rejectio at","service":"auth-service","timestamp":"2025-02-23 21:50:21"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:53:17"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:53:19"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:55:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:55:05"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:55:11"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:55:12"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:55:22"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:55:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:55:35"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:55:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:55:43"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:55:44"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:55:57"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:55:58"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:56:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:56:09"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:56:18"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:56:19"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:56:48"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:56:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:57:00"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:57:02"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:57:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:57:05"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:57:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:57:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:57:10"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:57:11"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:57:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:57:28"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:58:05"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:58:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAcessToken by ::1","service":"auth-service","timestamp":"2025-02-23 21:58:07"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 21:58:23"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 21:58:23"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:58:53"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:58:54"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:59:06"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:59:07"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 21:59:10"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 21:59:10"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:59:32"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 21:59:35"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 21:59:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 21:59:38"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 21:59:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:00:14"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 22:00:14"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:00:58"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 22:00:58"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:01:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:10"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:01:11"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:13"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:16"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:01:16"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 22:01:16"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:01:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:01:24"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 22:01:24"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:47"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:01:48"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:52"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:01:53"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:57"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:01:58"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:01:59"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:02:03"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:02:05"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:02:16"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:02:17"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:02:21"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:02:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:02:26"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:02:27"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:02:39"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:02:40"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:02:46"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-23 22:02:51"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-23 22:02:51"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:03:04"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 22:03:04"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:03:29"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:03:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:03:44"}
+{"level":"error","message":"Error in refresh AccessToken Cannot access 'refreshToken' before initialization","service":"auth-service","timestamp":"2025-02-23 22:03:44"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:04:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:04:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:04:12"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:04:14"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:04:26"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-23 22:04:28"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:04:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-23 22:04:30"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-02-23 22:04:41"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-02-23 22:04:41"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","7":" ","code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled Rejectio at","service":"auth-service","timestamp":"2025-02-23 22:04:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-02-23 22:04:48"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-24 21:20:48"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-24 21:21:01"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-24 21:24:20"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-24 21:24:20"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-24 21:26:50"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-24 21:26:57"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-24 21:27:06"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-24 21:27:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-02-24 21:27:09"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-02-24 21:27:10"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-24 21:27:13"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-24 21:27:13"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-02-24 22:17:28"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-02-24 22:17:28"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-15 16:59:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-15 16:59:52"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-15 17:00:14"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-15 17:00:15"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-15 17:55:05"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-15 17:55:05"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-15 18:50:39"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-15 18:50:39"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-15 21:21:03"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-15 21:21:03"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-15 21:54:26"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-15 21:54:26"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 13:31:15"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-16 13:31:15"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 13:32:06"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 13:32:06"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 16:15:15"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 16:15:15"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 16:17:28"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-16 16:17:29"}
+{"level":"info","message":"Received POST request to /api/auth/authUser by ::1","service":"auth-service","timestamp":"2025-03-16 16:57:07"}
+{"level":"info","message":"Received POST request to /api/auth/authUser by ::1","service":"auth-service","timestamp":"2025-03-16 16:57:12"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-16 16:57:59"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 16:57:59"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 16:57:59"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 16:57:59"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"name\" is not allowed","service":"auth-service","timestamp":"2025-03-16 16:57:59"}
+{"level":"info","message":"Received POST request to /api/auth/authUser by ::1","service":"auth-service","timestamp":"2025-03-16 17:01:18"}
+{"level":"info","message":"Received POST request to /api/auth/authUser by ::1","service":"auth-service","timestamp":"2025-03-16 17:01:19"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-16 17:03:23"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:03:23"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:03:23"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:03:23"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-16 17:04:59"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:04:59"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:04:59"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:04:59"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 17:06:12"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-16 17:06:13"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-16 17:07:17"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:07:17"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:07:18"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:07:18"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"userName\" is not allowed","service":"auth-service","timestamp":"2025-03-16 17:07:18"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:09:15"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:09:15"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:19:56"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:19:56"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:27:25"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:27:25"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:30:42"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:30:42"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 17:32:11"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 17:32:11"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 19:10:57"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 19:10:57"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 19:23:53"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 19:23:53"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 19:25:11"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 19:25:11"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 19:46:46"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 19:46:46"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 20:43:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-16 20:43:07"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 21:03:27"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 21:03:27"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 21:06:52"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 21:06:52"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 21:07:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-16 21:07:28"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 21:07:38"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceede for IP : ::1","service":"auth-service","timestamp":"2025-03-16 21:07:38"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 21:08:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-16 21:08:23"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-16 21:08:24"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-16 21:08:29"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-16 21:08:29"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-17 11:29:06"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-17 11:29:07"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-17 11:31:10"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-17 11:31:10"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-17 11:38:26"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-17 11:38:27"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-17 11:39:29"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-17 11:39:30"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-17 11:40:07"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-17 11:40:07"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-17 13:50:18"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-17 13:50:19"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-17 13:53:39"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-17 13:53:39"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-17 13:54:11"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-17 13:54:11"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-17 13:54:11"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-17 13:58:23"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-17 13:58:23"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 18:04:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 18:04:28"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:07:41"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:07:41"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:08:36"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:08:36"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:11:45"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:11:45"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:12:37"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:12:37"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:13:05"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:13:05"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:16:22"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:16:22"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:16:48"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:16:48"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:19:00"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:19:00"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:19:35"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:19:35"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:25:28"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:25:28"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:28:57"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:28:57"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:30:14"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:30:14"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:32:59"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:32:59"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:34:11"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:34:11"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 18:43:01"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 18:43:02"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:43:16"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:43:16"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 18:54:22"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 18:54:23"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:54:33"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:54:33"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 18:55:09"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 18:55:09"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 18:57:48"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 18:57:48"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 19:04:41"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 19:04:41"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:04:44"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:04:44"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:04:44"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:04:47"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:04:47"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:04:47"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 19:06:23"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 19:06:23"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:06:30"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:06:30"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:06:30"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:08:31"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:08:31"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:08:31"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:08:40"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:08:40"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:08:40"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:02"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:10:02"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:10:02"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:27"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 19:10:27"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"password\" length must be at least 6 characters long","service":"auth-service","timestamp":"2025-03-30 19:10:27"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:46"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 19:10:46"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:49"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:10:49"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:10:49"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:52"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:10:52"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:10:52"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:55"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:10:55"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:10:55"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:10:56"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:10:56"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:10:56"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:12:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:12:31"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:12:35"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:12:36"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:12:44"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:12:45"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:12:49"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:12:49"}
+{"level":"error","message":"Error while logout secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 19:12:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:13:25"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:13:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:13:28"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:14:15"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:14:15"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:14:20"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:14:20"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","service":"auth-service","timestamp":"2025-03-30 19:14:20"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 19:14:51"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 19:14:51"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:14:55"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:14:55"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","service":"auth-service","timestamp":"2025-03-30 19:14:55"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:15:25"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:15:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:15:28"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:15:31"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:15:32"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:15:33"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:15:59"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:16:00"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:16:03"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:16:04"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 19:16:17"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 19:16:17"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 19:16:23"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 19:16:23"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:16:48"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:16:49"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:16:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:16:52"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:16:56"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:16:57"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 19:16:59"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 19:17:00"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 20:32:13"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 20:32:14"}
+{"level":"info","message":"Received GET request to /api/auth//refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:00"}
+{"level":"info","message":"Received GET request to /api/auth//refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:00"}
+{"level":"info","message":"Received GET request to /api/auth//refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:06"}
+{"level":"info","message":"Received GET request to /api/auth//refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:06"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:38"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:38:38"}
+{"level":"info","message":"Received GET request to /api/auth//refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:42"}
+{"level":"error","message":"Error in refresh AccessToken secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 20:38:42"}
+{"level":"info","message":"Received GET request to /api/auth//refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:38:42"}
+{"level":"error","message":"Error in refresh AccessToken secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 20:38:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:39:17"}
+{"level":"error","message":"Error in refresh AccessToken secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 20:39:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:39:17"}
+{"level":"error","message":"Error in refresh AccessToken secret or public key must be provided","service":"auth-service","timestamp":"2025-03-30 20:39:17"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 20:39:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 20:39:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-30 20:39:49"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-30 20:39:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:23"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:26"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 20:40:26"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:28"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:30"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:44"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:40:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:47"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 20:40:50"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 20:40:50"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:44:48"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:44:48"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 20:44:52"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 20:44:52"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-30 20:51:18"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:51:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:52:49"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:52:49"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:09"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:53:09"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:18"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:53:18"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"userName\" is not allowed","service":"auth-service","timestamp":"2025-03-30 20:53:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:27"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:37"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:53:37"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 20:53:46"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 20:53:46"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-30 20:54:00"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:54:00"}
+{"level":"warn","message":"Registeration Validation Error : ValidationError: \"password\" length must be at least 6 characters long","service":"auth-service","timestamp":"2025-03-30 20:54:00"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-30 20:54:03"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:54:03"}
+{"level":"warn","message":"Registeration Validation Error : ValidationError: \"password\" length must be at least 6 characters long","service":"auth-service","timestamp":"2025-03-30 20:54:03"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-30 20:54:17"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:54:17"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:54:27"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:54:27"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"userName\" is not allowed","service":"auth-service","timestamp":"2025-03-30 20:54:27"}
+{"level":"info","message":"Received POST request to /api/auth/register by ::1","service":"auth-service","timestamp":"2025-03-30 20:56:00"}
+{"level":"info","message":"Register End Point Hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:56:00"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 20:56:04"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 20:56:04"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 20:56:10"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 20:56:10"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 21:07:44"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 21:07:44"}
+{"level":"warn","message":"Login Validation Error : ValidationError: \"userName\" is not allowed","service":"auth-service","timestamp":"2025-03-30 21:07:44"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:27"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-30 21:08:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:31"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:31"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:33"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:33"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:45"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-30 21:08:51"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-30 21:08:51"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-31 10:31:42"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-31 10:31:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 10:31:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 10:31:56"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:32:07"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:32:07"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 10:32:21"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 10:32:21"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:32:44"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:32:44"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 10:32:44"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:33:14"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:33:14"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 10:33:14"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:33:35"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:33:35"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:35:19"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:35:19"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 10:35:23"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 10:35:23"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:35:37"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:35:37"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 10:35:38"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:36:37"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:36:37"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 10:36:37"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:37:57"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:37:57"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 10:37:57"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:38:13"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:38:13"}
+{"level":"error","message":"user not found","service":"auth-service","timestamp":"2025-03-31 10:38:13"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:40:50"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:40:50"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 10:40:50"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:41:03"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:41:03"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 10:41:13"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 10:41:13"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:45:18"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:45:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 10:45:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 10:45:21"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 10:45:30"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 10:45:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 10:45:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 10:45:35"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 10:58:51"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 10:58:51"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 11:07:11"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 11:07:11"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 11:07:29"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 11:07:29"}
+{"level":"error","message":"user not found","service":"auth-service","timestamp":"2025-03-31 11:07:29"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 11:07:34"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 11:07:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:16:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:16:30"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 11:17:11"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 11:17:11"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 11:17:27"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 11:17:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:19:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:19:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:19:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:19:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:25:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:25:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:35:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:35:52"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 11:35:56"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 11:35:56"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 11:36:09"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 11:36:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:53:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:53:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:59:40"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 11:59:40"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 12:06:21"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 12:06:21"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 12:06:47"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 12:06:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 12:19:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 12:19:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 12:22:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 12:22:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:17:09"}
+{"level":"error","message":"Error in refresh AccessToken read ECONNRESET","service":"auth-service","timestamp":"2025-03-31 13:17:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:17:15"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 13:17:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:30:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:31:00"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:31:03"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:31:03"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:31:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 13:31:04"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 13:36:11"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 13:36:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:10:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:10:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:12:28"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:12:28"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:12:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:12:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:19"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:19"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:13:42"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 14:14:55"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 14:14:55"}
+{"level":"error","message":"Error in user registeration connection <monitor> to 159.41.188.76:27017 closed","service":"auth-service","timestamp":"2025-03-31 14:15:30"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 14:15:42"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 14:15:42"}
+{"level":"error","message":"Error in user registeration connection <monitor> to 159.41.188.76:27017 closed","service":"auth-service","timestamp":"2025-03-31 14:16:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:16"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:16"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:19"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:19"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:22"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:17:22"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-03-31 14:18:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-03-31 14:18:30"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 14:18:51"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 14:18:51"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:26:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:26:55"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 14:26:59"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 14:26:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:27:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:27:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:10"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:10"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:28"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 14:28:28"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:40"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:28:40"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:29:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:29:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:30:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:55:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:55:54"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 14:56:24"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 14:56:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:56:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 14:56:42"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 14:57:12"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 14:57:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 20:16:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 20:16:38"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 20:16:50"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 20:16:50"}
+{"level":"error","message":"Password not matched","service":"auth-service","timestamp":"2025-03-31 20:16:51"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 20:16:59"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 20:16:59"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-03-31 20:18:16"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-03-31 20:18:16"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 20:18:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 20:18:23"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 20:18:36"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 20:18:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 21:07:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 21:07:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-03-31 21:07:24"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 21:07:32"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 21:07:34"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-00.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-03-31 21:07:54"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-03-31 21:08:05"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-03-31 21:08:05"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-01 08:47:23"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-01 08:47:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:12:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:12:02"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-01 09:12:16"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-01 09:12:16"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:13:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:13:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:48:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:48:47"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-01 09:49:12"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-01 09:49:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:57:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 09:57:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:03:58"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:03:58"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:04:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:04:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:06:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:06:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:06:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:06:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:06:58"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:06:58"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-01 10:07:24"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-01 10:07:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:07:39"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:07:39"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:08:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:08:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:22:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:22:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:23:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:23:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:28:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:28:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:30:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:30:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:32:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:32:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:35:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:46:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 10:48:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 11:00:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 11:07:16"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 11:13:00"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 12:48:46"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:34:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:37:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:37:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:37:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:37:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:37:49"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:38:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:38:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:38:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:38:26"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:40:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:40:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:40:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:41:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:41:03"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:41:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:41:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:42:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:26"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:39"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:53"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:43:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:44:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:45:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:46:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:47:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:49:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:49:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:49:30"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:50:14"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:51:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:53:39"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:53:49"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:53:51"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:53:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:54:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:54:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:54:22"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:54:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:22"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:26"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:39"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:55:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:07"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:13"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:46"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:53"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:56:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:57:08"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:57:14"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:57:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:58:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 13:59:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:02:31"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:03:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:03:51"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:05:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:05:40"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:05:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:06:03"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:09:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:10:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:11:08"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:11:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:16:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:22:08"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:22:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:22:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:22:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 14:23:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 16:05:48"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-01 16:06:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 18:59:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:34:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:46:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:46:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:47:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:48:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:51:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:52:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:53:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:54:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:54:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:55:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:55:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:55:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 20:56:07"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:01:58"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:05:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:05:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:09:46"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:10:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:13:49"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:14:08"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:14:14"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:14:22"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:14:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:14:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:15:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 21:22:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:45:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:46:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:47:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:48:00"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:48:14"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:48:37"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:49:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:51:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:51:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:51:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:53:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:53:26"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:53:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:53:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:54:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:55:53"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:56:10"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:56:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:57:19"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:57:28"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:57:58"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 22:58:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:00:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:04:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:09:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:10:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:10:58"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:14:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:15:08"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:15:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:15:53"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:16:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:17:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:19:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:25:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:25:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:26:18"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-01 23:28:52"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 10:13:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 10:13:31"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:27:31"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-02 10:27:56"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-02 10:27:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:32:23"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:52:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:52:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:52:49"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:52:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:52:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:05"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:10"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:42"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:47"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:53:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:01"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:34"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:56"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:54:57"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:05"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:21"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:37"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:40"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:55:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 10:58:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 13:33:39"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 13:40:14"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 13:52:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 13:53:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 13:53:33"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 14:17:44"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 14:37:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 14:49:46"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 14:54:59"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:07:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:09:07"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:09:47"}
+{"level":"info","message":"Received GET request to /api/auth/logout by ::1","service":"auth-service","timestamp":"2025-04-02 15:11:20"}
+{"level":"info","message":"Logout end point hit","service":"auth-service","timestamp":"2025-04-02 15:11:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:13:45"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:19:53"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:24:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:24:30"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:24:41"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:24:42"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:24:45"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:24:46"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:24:50"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:24:51"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:24:54"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:24:54"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:25:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:25:05"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:25:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:25:08"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:25:11"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:25:12"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:25:17"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:25:18"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:30:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:30:04"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:30:47"}
+{"level":"info","message":"Auth service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:30:59"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:31:00"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:33:56"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:33:59"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:35:14"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:36:22"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:37:22"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:37:22"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:37:23"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:37:25"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:37:25"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:37:27"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:37:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:37:28"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:38:02"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:38:02"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:38:03"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:38:38"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:38:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:38:39"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:38:41"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:38:41"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:38:42"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:39:04"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:39:04"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:39:05"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:39:24"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:39:24"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:39:24"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:39:28"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:39:28"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:39:29"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:39:44"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:39:44"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:39:46"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:39:46"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:39:47"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:39:58"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:39:58"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:39:59"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:40:06"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:40:06"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:40:08"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:40:08"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:40:08"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:40:16"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:40:16"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:40:16"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:40:49"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:40:49"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:40:50"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:42:08"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:42:08"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:42:09"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:42:24"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:42:24"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:42:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:46:21"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:46:37"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:46:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:46:38"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:49:47"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:49:47"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:49:48"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:07"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:07"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:07"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:09"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:09"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:09"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:15"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:15"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:16"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:19"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:19"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:19"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:26"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:27"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:27"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:30"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:30"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:31"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:35"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:35"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:36"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:37"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:41"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:41"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:41"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:44"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:44"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:45"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:50:56"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:50:56"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:50:57"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:10"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:10"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:13"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:13"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:51:13"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:16"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:16"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:51:17"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:23"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:23"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:51:24"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:28"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:28"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:31"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:31"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:51:32"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:36"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:36"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:51:36"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:51:47"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:51:47"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:51:48"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:11"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:11"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:13"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:13"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:15"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:15"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:15"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:17"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:17"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:18"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:25"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:25"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:26"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:34"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:34"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:35"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:41"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:41"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:41"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:52"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:52"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:52"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:52:58"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:52:58"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:52:59"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:02"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:02"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:53:03"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:24"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:25"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:53:25"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:30"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:30"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:33"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:33"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:53:34"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:38"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:38"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:53:38"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:47"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:47"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:53:48"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:53:51"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:53:51"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:53:52"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:54:02"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:54:02"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:54:02"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:54:05"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:54:05"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:54:06"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:54:17"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:54:17"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:54:18"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:54:29"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:54:29"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:54:29"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:55:36"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:55:36"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:55:36"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:56:37"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:56:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:56:38"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:56:44"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:56:44"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:56:45"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:58:16"}
+{"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:58:16"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:58:16"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 15:58:35"}
+{"level":"info","message":"Subscribed to event : new.postId","service":"auth-service","timestamp":"2025-04-02 15:58:35"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 15:58:35"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 15:58:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 15:59:00"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-02 15:59:15"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-02 15:59:15"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 16:01:02"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 16:01:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 16:02:00"}
+{"level":"info","message":"Post created after work endpoint hit..","service":"auth-service","timestamp":"2025-04-02 16:02:41"}
+{"level":"error","message":"Something went wrong while handle event Cannot read properties of undefined (reading 'push')","service":"auth-service","timestamp":"2025-04-02 16:02:41"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 16:03:23"}
+{"level":"info","message":"Subscribed to event : new.postId","service":"auth-service","timestamp":"2025-04-02 16:03:23"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 16:03:23"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 16:03:24"}
+{"level":"info","message":"Post created after work endpoint hit..","service":"auth-service","timestamp":"2025-04-02 16:04:10"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-02 17:32:37"}
+{"level":"info","message":"Subscribed to event : new.postId","service":"auth-service","timestamp":"2025-04-02 17:32:37"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-02 17:32:37"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-02 17:32:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 17:33:51"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 17:36:10"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 17:38:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 17:44:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-02 18:08:59"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-03 09:47:32"}
+{"level":"info","message":"Subscribed to event : new.postId","service":"auth-service","timestamp":"2025-04-03 09:47:32"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-03 09:47:32"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-03 09:47:33"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 09:47:50"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-03 09:48:56"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-03 09:48:56"}
+{"level":"info","message":"Post created after work endpoint hit..","service":"auth-service","timestamp":"2025-04-03 09:51:00"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-03 09:55:00"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-03 09:55:00"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 09:56:41"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 09:57:12"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 09:58:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 09:58:26"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-03 10:07:11"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-03 10:07:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 10:31:20"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 10:32:50"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 10:32:52"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:01:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:08:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:10:32"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:12:04"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:19:17"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:19:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:25:36"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:28:19"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:52:06"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:52:09"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:52:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:52:39"}
+{"level":"info","message":"Received POST request to /api/auth/login by ::1","service":"auth-service","timestamp":"2025-04-03 11:54:21"}
+{"level":"info","message":"Login end point hit by IP : ::1","service":"auth-service","timestamp":"2025-04-03 11:54:21"}
+{"level":"info","message":"Post created after work endpoint hit..","service":"auth-service","timestamp":"2025-04-03 11:56:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 11:59:27"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-03 13:01:54"}
+{"level":"info","message":"Subscribed to event : new.postId","service":"auth-service","timestamp":"2025-04-03 13:01:54"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-03 13:01:54"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-03 13:01:55"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 13:02:26"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 13:02:29"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 13:04:38"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 13:05:11"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 13:09:01"}
+{"level":"info","message":"Connected to rabbitmq","service":"auth-service","timestamp":"2025-04-03 14:27:34"}
+{"level":"info","message":"Subscribed to event : new.postId","service":"auth-service","timestamp":"2025-04-03 14:27:34"}
+{"level":"info","message":"Post search service is running on port 3001","service":"auth-service","timestamp":"2025-04-03 14:27:34"}
+{"level":"info","message":"Connected to MangooDB","service":"auth-service","timestamp":"2025-04-03 14:27:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:27:48"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:28:22"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:28:54"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:30:22"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:30:35"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:30:46"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:31:24"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:31:49"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:32:27"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:32:43"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 14:33:53"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 15:16:25"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 15:18:46"}
+{"level":"info","message":"Received GET request to /api/auth/refreshAccessToken by ::1","service":"auth-service","timestamp":"2025-04-03 15:18:53"}

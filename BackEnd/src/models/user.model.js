@@ -32,8 +32,12 @@ const userSchema= new Schema(
 
             }
         ],
-        useImage:{
+        userImage:{
             type:String,
+        },
+        emailVarification:{
+            type:Boolean,
+            default:false
         }
     },
     {timestamps:true}

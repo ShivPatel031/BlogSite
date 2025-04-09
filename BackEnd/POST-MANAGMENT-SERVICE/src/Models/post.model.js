@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 const PostSchema = new mongoose.Schema(
   {
@@ -45,9 +45,8 @@ const PostSchema = new mongoose.Schema(
     ],
     comments: [
       {
-        user_id: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-        text: { type: String, required: true },
-        timestamp: { type: Date, default: Date.now },
+        type:Schema.Types.ObjectId,
+        ref:"Comments"
       },
     ],
     views: {

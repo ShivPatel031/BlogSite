@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export function BlogPostCard({ data, key }) {
   return (
-    <Link className="flex items-center gap-8 w-full border-b border-gray-200 pb-5 mb-4">
-      <div className="w-full" key={key}>
+    <Link  to={`/blog/${data?.slug}`} className="flex items-center gap-8 w-full border-b border-gray-200 pb-5 mb-4" key={key}>
+      <div className="w-full" >
         <div className="flex gap-2 items-center mb-7">
           <img
             src={data.userId.userImage}

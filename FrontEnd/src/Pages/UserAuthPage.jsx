@@ -1,5 +1,5 @@
 import { KeyRound, Mail, UserRound } from "lucide-react";
-import { InputBox } from "../Components/InputBox";
+import { InputBox } from "../Common/InputBox";
 import { Logo } from "../Common/Logo";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AnimationWrapper } from "../Common/AnimationWrapper";

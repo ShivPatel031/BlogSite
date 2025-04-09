@@ -41,7 +41,7 @@ app.use(urlVersioning("v1"));
 // auth servise proxy
 app.use("/api/v1/auth", authProxy());
 
-app.use("/api/v1/posts/manage-posts",validatetoken,postMangemnetProxy());
+app.use("/api/v1/posts",validatetoken,postMangemnetProxy());
 
 app.use(errorHandler);
 

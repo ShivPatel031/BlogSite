@@ -12,6 +12,7 @@ import { authenticateRequest } from "./Middleware/auth.meddlware.js";
 import postRoute from "./Routes/post.routes.js";
 import { connectCoudinary } from "./Utility/cloudinary.js";
 import { connectToRabbitMQ } from "./Utility/rabbitmq.js";
+import commentRoute from "./Routes/comment.routes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3002;
@@ -40,8 +41,9 @@ app.use(express.urlencoded({ extended: true }));
 // limit request on express register route by 10 req per 30 min per id
 // for test it is 20 req
 // app.use("/api/auth/login", LoginRateLimiter(redisClient, 20, 30));
-
-app.use("/api/posts/manage-posts", postRoute);
+const routePrefix = "/api/posts";
+app.use(routePrefix + "/manage-posts", postRoute);
+app.use(routePrefix + "/comments", commentRoute);
 
 (async () => {
   try {

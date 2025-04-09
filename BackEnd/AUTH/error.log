@@ -77,3 +77,31 @@
 {"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:56:44"}
 {"level":"error","message":"Something  went wrong while connecting to RabbitMQ and starting or server.","service":"auth-service","timestamp":"2025-04-02 15:58:16"}
 {"level":"error","message":"Something went wrong while handle event Cannot read properties of undefined (reading 'push')","service":"auth-service","timestamp":"2025-04-02 16:02:41"}
+{"level":"error","message":"Mongo connection error Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-05 09:54:06"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-05 11:25:14"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-05 11:25:36"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-05 11:25:37"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-05 11:25:50"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-05 11:26:16"}
+{"level":"error","message":"Error in refresh AccessToken read ECONNRESET","service":"auth-service","timestamp":"2025-04-05 11:27:40"}
+{"level":"error","message":"Mongo connection error Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-06 11:34:45"}
+{"level":"error","message":"Mongo connection error Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-07 14:47:40"}
+{"level":"error","message":"Mongo connection error Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-07 14:48:06"}
+{"level":"error","message":"Mongo connection error Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-07 14:48:29"}
+{"level":"error","message":"Error in refresh AccessToken Operation `users.findOne()` buffering timed out after 10000ms","service":"auth-service","timestamp":"2025-04-07 14:48:40"}
+{"level":"error","message":"Error in refresh AccessToken Operation `users.findOne()` buffering timed out after 10000ms","service":"auth-service","timestamp":"2025-04-07 14:48:51"}
+{"level":"error","message":"Error in refresh AccessToken Operation `users.findOne()` buffering timed out after 10000ms","service":"auth-service","timestamp":"2025-04-07 14:49:03"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:01:29"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:02:53"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:03:49"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:04:23"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:06:11"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:06:29"}
+{"level":"error","message":"Error in refresh AccessToken read ECONNRESET","service":"auth-service","timestamp":"2025-04-07 15:08:38"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:09:08"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string or an instance of Buffer or URL. Received an instance of Object","service":"auth-service","timestamp":"2025-04-07 15:10:52"}
+{"level":"error","message":"Unhandled Rejectio at [object Promise] reason: TypeError: Cannot read properties of undefined (reading 'userId')","service":"auth-service","timestamp":"2025-04-07 15:12:41"}
+{"level":"error","message":"Mongo connection error Error: querySrv EREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-07 15:16:28"}
+{"level":"error","message":"Mongo connection error Error: querySrv EREFUSED _mongodb._tcp.cluster0.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-07 15:16:31"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-02.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-07 17:40:47"}
+{"level":"error","message":"Error in refresh AccessToken getaddrinfo ENOTFOUND ac-g1yueag-shard-00-01.is5nucp.mongodb.net","service":"auth-service","timestamp":"2025-04-08 15:38:49"}

@@ -16,6 +16,7 @@ import authRouter from "./Routes/auth.routes.js";
 import cookieParser from "cookie-parser";
 import { connectToRabbitMQ, consumeEvent } from "./Utility/rabbitmq.js";
 import { addPostIdtoUserData } from "./EventHandler/PostCreated.js";
+import { connectCoudinary } from "./Utility/cloudinary.js";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -49,8 +50,9 @@ app.use("/api/auth", authRouter);
   try {
     await connectToRabbitMQ();
     connectDB();
+    connectCoudinary();
 
-    await consumeEvent("new.postId",addPostIdtoUserData);
+    await consumeEvent("new.postId", addPostIdtoUserData);
 
     app.listen(PORT, () => {
       logger.info(`Post search service is running on port ${PORT}`);

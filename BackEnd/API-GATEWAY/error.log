@@ -40,3 +40,80 @@
 {"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 13:01:35"}
 {"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-03 14:30:35"}
 {"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 17:19:51"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 20:22:59"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-03 22:02:54"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 09:57:54"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 09:57:58"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 09:58:00"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 13:17:26"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 13:17:31"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 13:17:33"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 15:27:15"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 15:27:15"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 15:40:33"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-04 15:40:33"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-04-04 15:49:02"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-04-04 15:49:02"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-04-04 15:49:02"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-05 16:38:24"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-05 16:38:24"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-05 18:18:12"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-05 20:55:34"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-06 11:34:17"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 12:45:56"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 14:37:05"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 14:53:53"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 14:55:59"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 14:56:27"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 15:07:59"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 15:08:06"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-04-07 15:16:26"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:05"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:11"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:34"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:45"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:47"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:48"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:49"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 16:11:49"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:43:03"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:43:23"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:43:28"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:43:44"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:43:49"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:44:14"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-07 20:44:17"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-08 14:12:45"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-08 18:20:15"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-08 18:44:22"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-08 19:29:22"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-08 20:18:19"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:33:49"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:33:53"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:34:13"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:34:30"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:35:02"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:36:29"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:36:36"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:38:07"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:39:51"}
+{"level":"error","message":"Proxy error: request entity too large","service":"api-gateway","timestamp":"2025-04-08 20:46:12"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3001","service":"api-gateway","timestamp":"2025-04-09 10:09:16"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:51:45"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:52:01"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:52:03"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:52:36"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:53:25"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:53:26"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:54:45"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:54:47"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:54:56"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:03"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:07"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:16"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:18"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:26"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:27"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 10:55:36"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 11:48:08"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:3002","service":"api-gateway","timestamp":"2025-04-09 11:48:11"}

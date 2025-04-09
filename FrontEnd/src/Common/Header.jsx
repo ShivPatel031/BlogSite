@@ -3,14 +3,14 @@ import { Logo } from "./Logo";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import userImage from "../../public/profile.png";
-import { authStore } from "../stores/authStore";
+import { authStore } from "../Stores/authStore";
 import { AnimationWrapper } from "./AnimationWrapper";
 
 const DropDownOption = [
   { title: "Write" },
-  { title: "Profile" },
+  { title: "Profile", link: "/profile/id" },
   { title: "Dashboard" },
-  { title: "Settings" },
+  { title: "Settings", link: "/settings/edit-profile" },
   { title: "Log Out" },
 ];
 
@@ -36,6 +36,8 @@ function DropDownManu({ isLargeScreen }) {
                   if (await logout()) {
                     navigate("/");
                   }
+                } else {
+                  navigate(data.link);
                 }
               }}
             >
@@ -81,6 +83,9 @@ export function Header() {
                 className="bg-gray-200 h-10 w-64 rounded-3xl pl-5 text-gray-600 outline-gray-300 text-lg"
                 placeholder="Search ..."
                 value={search}
+                onKeyDown={(e) => {
+                  if (e.keyCode == 13) navigate(`/search/${search}`);
+                }}
                 onChange={(e) => setSearch(e.target.value)}
               />
               <Search className="absolute top-2 left-55 text-gray-500 cursor-pointer" />
@@ -89,7 +94,7 @@ export function Header() {
             <div
               className=" relative w-11 bg-gray-200 h-11 rounded-full flex justify-center items-center"
               tabIndex={0}
-              onBlur={() => setShowSearch(false)}
+              // onBlur={() => setShowSearch(false)}
             >
               <Search
                 className="w-7 h-7 text-gray-500 cursor-pointer"
@@ -102,6 +107,9 @@ export function Header() {
                     className={`bg-gray-200 h-10 w-sm rounded-3xl pl-5 text-gray-600 outline-gray-300 text-lg`}
                     placeholder="Search ..."
                     value={search}
+                    onKeyDown={(e) => {
+                      if (e.keyCode == 13) navigate(`/search/${search}`);
+                    }}
                     onChange={(e) => setSearch(e.target.value)}
                   />
                   <Search className="absolute top-2 right-4  text-gray-500 cursor-pointer" />

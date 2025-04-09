@@ -7,6 +7,8 @@ const routes = {
   logout: "/auth/logout",
   signup: "/auth/register",
   loginOnRefresh: "/auth/refreshAccessToken",
+  updateProfileImage: "/auth/update-profile-image",
+  updateProfileData: "/auth/update-profile-data",
 };
 
 export const authStore = create((set) => ({
@@ -87,6 +89,58 @@ export const authStore = create((set) => ({
       }
     } catch (error) {
       console.log(error.message);
+    }
+  },
+
+  updateProfileImage: async (data) => {
+    try {
+      const token = sessionStorage.getItem("blog_site_auth_token");
+      const response = await axiosInstance.post(
+        routes.updateProfileImage,
+        data,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      if (response?.data?.success) {
+        toast.success("Prifile image updated successfully.");
+        set((state) => ({
+          user: { ...state.user, userImage: response.data.data.userImage },
+        }));
+      }
+    } catch (error) {
+      toast.error(
+        error.response.data.message || "Error in update profile image."
+      );
+    }
+  },
+
+  updateProfileData: async (data) => {
+    try {
+      const token = sessionStorage.getItem("blog_site_auth_token");
+      const response = await axiosInstance.post(
+        routes.updateProfileData,
+        data,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      if (response?.data?.success) {
+        toast.success("Prifile data updated successfully.");
+        set((state) => ({
+          user: { ...state.user, ...response.data.data },
+        }));
+      }
+    } catch (error) {
+      toast.error(
+        error.response.data.message || "Error in update profile data."
+      );
     }
   },
 }));

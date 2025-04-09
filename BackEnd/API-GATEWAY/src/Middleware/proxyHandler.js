@@ -20,7 +20,7 @@ export function authProxy() {
   return Proxy(process.env.AUTH_SERVICE_URL, {
     ...comonProxyOption,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
-      proxyReqOpts.headers["Content-Type"] = "application/json";
+      // proxyReqOpts.headers["Content-Type"] = "application/json";
 
       return proxyReqOpts;
     },

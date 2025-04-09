@@ -3,7 +3,6 @@ import EditorJS from "@editorjs/editorjs";
 import { tools } from "./EditorTools";
 import { BlogContext } from "../Pages/EditorPage";
 import toast from "react-hot-toast";
-import { X } from "lucide-react";
 export function BlogEditor() {
   const { blogData, setBlogData, editor, setEditor, setMode } =
     useContext(BlogContext);

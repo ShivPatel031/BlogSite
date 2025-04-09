@@ -1,9 +1,11 @@
 import { User } from "../Models/user.model.js";
+import { removePostCloudinary, uploadImage } from "../Utility/cloudinary.js";
 import { generateAccessAndRefreshTokens } from "../Utility/generateToken.js";
 import { logger } from "../Utility/logger.js";
 import { Res } from "../Utility/response.js";
 import { validateLogin, validateRegistration } from "../Utility/validation.js";
 import jwt from "jsonwebtoken";
+import fs from "fs";
 
 export async function userRegister(req, res) {
   logger.info(`Register End Point Hit by IP : ${req.ip}`);
@@ -168,7 +170,6 @@ export async function userLogout(req, res) {
 }
 
 export async function refreshAccessToken(req, res) {
-
   const { refreshToken } = req.cookies;
 
   if (!refreshToken) {
@@ -178,10 +179,7 @@ export async function refreshAccessToken(req, res) {
   }
 
   try {
-    const decode = await jwt.verify(
-      refreshToken,
-      process.env.JWT_SECRET
-    );
+    const decode = await jwt.verify(refreshToken, process.env.JWT_SECRET);
 
     if (!decode) {
       return res
@@ -228,5 +226,126 @@ export async function refreshAccessToken(req, res) {
     return res
       .status(500)
       .json(new Res(false, "Error in refresh AccessToken", error.message));
+  }
+}
+
+export async function searchAccount(req, res) {
+  const searchQuery = req.body.search;
+
+  if (!searchQuery)
+    return res.status(404).json(new Res(false, "Search key word is missing."));
+  try {
+    console.log(searchQuery);
+    const users = await User.find({
+      userName: { $regex: searchQuery, $options: "i" }, // Case-insensitive search
+    });
+
+    return res
+      .status(200)
+      .json(new Res(true, "Fond blogs", users.length ? users : []));
+  } catch (error) {
+    return res.status(500).json(new Res(false, "Error in seraching blog."));
+  }
+}
+
+export async function updateProfileImage(req, res) {
+  const imageFile = req.file;
+  if (!imageFile) {
+    return res.status(404).json(new Res(false, "Image not found."));
+  }
+  const { refreshToken } = req.cookies;
+
+  if (!refreshToken) {
+    return res
+      .status(404)
+      .json(new Res(true, "Token not found, user is already logout"));
+  }
+
+  try {
+    const decode = await jwt.verify(refreshToken, process.env.JWT_SECRET);
+
+    if (!decode) {
+      return res
+        .status(404)
+        .json(new Res(false, "Token is expired, user is already logout"));
+    }
+    const user = await User.findById(decode._id);
+    if (!user) {
+      return res.status(500).json(new Res(false, "User Not Found."));
+    }
+
+    if (user.userImage && user.userImagePublicId) {
+      await removePostCloudinary(user.userImagePublicId);
+    }
+
+    const profileImage = await uploadImage(imageFile);
+
+    user.userImage = profileImage.secure_url;
+    user.userImagePublicId = profileImage.public_id;
+    await user.save();
+
+    return res.status(200).json(
+      new Res(true, "Profile Image updated successfully.", {
+        userImage: user.userImage,
+        userImagePublicId: user.userImagePublicId,
+      })
+    );
+  } catch (error) {
+    return res
+      .status(500)
+      .json(
+        new Res(false, "Something went wrong while updating profile image.")
+      );
+  } finally {
+    fs.unlinkSync(imageFile.path);
+  }
+}
+
+export async function updateProfileData(req, res) {
+  const { refreshToken } = req.cookies;
+
+  if (!refreshToken) {
+    return res
+      .status(404)
+      .json(new Res(true, "Token not found, user is already logout"));
+  }
+
+  try {
+    const decode = await jwt.verify(refreshToken, process.env.JWT_SECRET);
+
+    if (!decode) {
+      return res
+        .status(404)
+        .json(new Res(false, "Token is expired, user is already logout"));
+    }
+
+    const newValues = {
+      userName: req.body.userName,
+      fullName: req.body.fullName,
+      email: req.body.email,
+      bio: req.body.bio,
+      social_links: {
+        youtube: req.body.youtube,
+        instagram: req.body.instagram,
+        facebook: req.body.facebook,
+        twitter: req.body.twitter,
+        github: req.body.github,
+        website: req.body.website,
+      },
+    };
+    const user = await User.findByIdAndUpdate(decode._id, { ...newValues });
+    if (!user) {
+      return res.status(500).json(new Res(false, "User Not Found."));
+    }
+
+    return res
+      .status(200)
+      .json(new Res(true, "Profile data updated successfully."));
+  } catch (error) {
+    return res
+      .status(500)
+      .json(
+        new Res(false, "Something went wrong while updating profile data.")
+      );
   }
 }

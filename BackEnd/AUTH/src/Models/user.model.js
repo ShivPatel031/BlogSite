@@ -13,6 +13,11 @@ const userSchema = new Schema(
       index: true,
       trim: true,
     },
+    fullName: {
+      type: String,
+      lowercase: true,
+      minlength: [3, "fullname must be 3 letters long"],
+    },
     email: {
       type: String,
       required: true,
@@ -31,10 +36,48 @@ const userSchema = new Schema(
         ref: "Post",
       },
     ],
+    bio: {
+      type: String,
+      maxlength: [200, "Bio should not be more than 200"],
+      default: "",
+    },
     userImage: {
       type: String,
     },
+    userImagePublicId: {
+      type: String,
+    },
     emailVarification: {
+      type: Boolean,
+      default: false,
+    },
+    social_links: {
+      youtube: {
+        type: String,
+        default: "",
+      },
+      instagram: {
+        type: String,
+        default: "",
+      },
+      facebook: {
+        type: String,
+        default: "",
+      },
+      twitter: {
+        type: String,
+        default: "",
+      },
+      github: {
+        type: String,
+        default: "",
+      },
+      website: {
+        type: String,
+        default: "",
+      },
+    },
+    google_auth: {
       type: Boolean,
       default: false,
     },

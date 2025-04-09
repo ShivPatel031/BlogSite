@@ -1,21 +1,3 @@
-// import multer from "multer";
-
-// const storage = multer.diskStorage(
-//     {
-//         destination:function(req,file,cb){
-//             cb(null,"./public/temp");
-//         },
-//         filename:function(req,file,cb)
-//         {
-//             cb(null,file.originalname);
-//         }
-//     }
-// )
-
-// export const upload = multer({
-//     storage,
-// })
-
 import multer from "multer";
 
 const storage = multer.diskStorage( // here we use diskStorage because file can be big but we can use other option ,read document 

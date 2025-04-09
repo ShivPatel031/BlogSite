@@ -3,12 +3,14 @@ import { BlogContext } from "../Pages/EditorPage";
 import { useContext, useState } from "react";
 import toast from "react-hot-toast";
 import { blogStore } from "../Stores/blogStore";
+import { useNavigate } from "react-router-dom";
 
 export function Publish() {
+  const navigate = useNavigate();
   const { setMode, blogData } = useContext(BlogContext);
   const { isBlogPublishing, PublishBlog } = blogStore();
 
-  const handlePublish = () => {
+  const handlePublish = async () => {
     if (isBlogPublishing) return;
 
     if (blogData.tags.length < 2) {
@@ -26,7 +28,6 @@ export function Publish() {
     formData.append("title", blogData?.title);
     formData.append("content", JSON.stringify(blogData.content));
     blogData.tags.forEach((element) => {
-      console.log(element);
       formData.append("tags", element);
     });
 
@@ -35,8 +36,9 @@ export function Publish() {
     formData.append("is_featured", true);
     formData.append("image", blogData.bannerImage);
     formData.append("description", blogData.description);
-    console.log(formData);
-    PublishBlog(formData);
+    if (await PublishBlog(formData)) {
+      navigate("/");
+    }
   };
 
   return (

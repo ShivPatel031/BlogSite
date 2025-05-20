@@ -73,6 +73,24 @@ This system follows the **Microservices pattern** to separate responsibilities a
 
 ---
 
+🧪 Future Improvements|
+
+Add Notification Microservice
+
+Support for scheduled publishing
+
+Implement GraphQL Gateway (optional)
+
+SEO enhancements on frontend
+
+🏆 Achievements
+
+🔥 Built using clean and scalable architecture
+
+🚀 Smooth animations and lazy-loaded React UI
+
+🧠 Developed with performance, modularity, and real-world security in mind
+
 ## ⚙️ How to Run Locally
 
 ```bash
@@ -92,23 +110,7 @@ cd ../post-management && npm install && npm run dev
 cd ../post-public && npm install && npm run dev
 
 # Start frontend
-cd ../client && npm install && npm start
+cd ../client && npm install && npm start 
 
-🧪 Future Improvements|
 
-Add Notification Microservice
-
-Support for scheduled publishing
-
-Implement GraphQL Gateway (optional)
-
-SEO enhancements on frontend
-
-🏆 Achievements
-
-🔥 Built using clean and scalable architecture
-
-🚀 Smooth animations and lazy-loaded React UI
-
-🧠 Developed with performance, modularity, and real-world security in mind
 
